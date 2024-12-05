@@ -23,3 +23,30 @@ Este projeto é um **sistema de gestão de sessões fotográficas**, desenvolvid
 1. Clone o repositório:
    ```bash
    git clone https://github.com/davi1sousa/CRUD-sessoes-fotograficas.git
+
+
+2. **Instale o XAMPP**:
+   - Baixe e instale o [XAMPP](https://www.apachefriends.org/index.html), que inclui o Apache (servidor web) e o MySQL (banco de dados).
+   
+3. **Configuração do Banco de Dados**:
+   - Abra o `phpMyAdmin` acessando `http://localhost/phpmyadmin/`.
+   - Crie um banco de dados chamado `fotografo_app`.
+   - Importe as tabelas ou crie-as manualmente de acordo com o esquema do projeto.
+
+3. **Configuração do Projeto**:
+   - Baixe ou clone este repositório na pasta `htdocs` do XAMPP;
+   - Abra o arquivo de configuração do banco de dados ( `db_config.php`) e altere as credenciais para conectar com o banco de dados criado.
+
+4. **Rodando o Projeto**:
+   - Abra o painel de controle do XAMPP e inicie o Apache e o MySQL.
+   - Abra o navegador e acesse o projeto em `http://localhost/CRUD-sessoes-fotograficas`.
+
+5. **Testando as Funcionalidades**:
+   - Acesse as funcionalidades de login, cadastro, e gerenciamento de sessões fotográficas.
+   - Teste a criação, edição, exclusão e visualização das sessões.
+
+## Funcionalidades
+
+- **Login e Cadastro**: Fotógrafos podem se cadastrar e fazer login para acessar suas sessões fotográficas.
+- **Gerenciamento de Sessões**: Fotógrafos podem adicionar, editar e excluir sessões de fotografia.
+- **Visualização de Sessões**: Fotógrafos podem visualizar todos os detalhes das sessões cadastradas.
